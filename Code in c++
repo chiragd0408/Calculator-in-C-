@@ -1,0 +1,42 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int sum;
+    int n1,n2;
+    cout<<"Enter the 2 numbers:";
+    cin>>n1>>n2;
+    char op;
+    cout<<"Enter the operand:";
+    cin>>op;
+
+    switch (op)
+    {
+        case '+':
+            sum = n1 + n2;
+            cout << "The sum is: " << sum << endl;
+            break;
+
+        case '-':
+            sum = n1 - n2;
+            cout<<"The sum is: "<<sum<<endl;
+            break;
+
+        case '*':
+            sum = n1 * n2;
+            cout<<"The sum is: "<<sum<<endl;
+            break;
+
+        case '/':
+            sum = n1 / n2;
+            cout<<"The sum is: "<<sum<<endl;
+            break;
+
+        default:
+            cout<<"I am Sorry!"<<endl;
+            break;
+
+    }
+
+  }
